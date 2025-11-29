@@ -13,11 +13,13 @@ git clone https://github.com/Vapor55/KAngel-Fastfetch-Dotfiles.git ~/.config/fas
 > [!NOTE]
 > _To use images in `*.png` extension, use:
 
+In Arch Linux:
+
 ```bash
 sudo pacman -S imagemagick
 ```
 
-or you use NixOS in configuration.nix:
+Or you use NixOS in configuration.nix:
 
 ```nix
 {
@@ -28,3 +30,20 @@ or you use NixOS in configuration.nix:
 
 }
 ```
+
+In Home Manager:
+
+```nix
+{
+
+  home.packages = with pkgs; [
+    imagemagick
+  ];
+
+}
+```
+
+
+# Credits
+
+This fastfetch configuration is the modified version for [Sofijacom Dotfiles Fastfetch](https://github.com/sofijacom/dotfiles-fastfetch).
