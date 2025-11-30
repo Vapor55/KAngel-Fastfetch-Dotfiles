@@ -6,7 +6,8 @@
 
 ## Requisits
 
-* ![Nerd Fonts](https://www.nerdfonts.com/)
+* Git
+* Nerd Fonts
 
 ## Install
 
