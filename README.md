@@ -6,7 +6,7 @@
 
 ## Requisits
 
-* ![Nerd Fonts](https://www.nerdfonts.com)
+* ![Nerd Fonts](https://www.nerdfonts.com/)
 
 ## Install
 
