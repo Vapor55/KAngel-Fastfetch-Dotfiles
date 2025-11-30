@@ -4,45 +4,31 @@
 
 # INSTALLATION
 
+## Requisits
+
+* ![Nerd Fonts](https://www.nerdfonts.com)
+
+## Install
+
 To install the fastfetch config, use:
 
 ```bash
 git clone https://github.com/Vapor55/KAngel-Fastfetch-Dotfiles.git ~/.config/fastfetch
 ```
 
-> [!NOTE]
-> _To use images in `*.png` extension, use:
-
-In Arch Linux:
+Optional: Remove the .git folder
 
 ```bash
-sudo pacman -S imagemagick
+rm -rf ~/.config/fastfetch/.git
 ```
 
-Or you use NixOS in configuration.nix:
+# Waring
 
-```nix
-{
+- Characters, images, and other visual elements related to *NEEDY STREAMER OVERLOAD* (such as Ame-chan / KAngel) are the property of their respective rights holders: Xemono / WSS playground / Alliance Arts, as applicable. No ownership of these materials is claimed. © Xemono / WSS playground / Alliance Arts.
 
-  environment.systemPackages = with pkgs; [
-    imagemagick
-  ];
+- Images included in this repository are used solely to demonstrate the theme/appearance of the fastfetch setup and are not intended to infringe on any rights. If you are a rights holder and would like any material removed, please open an issue or submit a pull request requesting removal.
 
-}
-```
-
-In Home Manager:
-
-```nix
-{
-
-  home.packages = with pkgs; [
-    imagemagick
-  ];
-
-}
-```
-
+> Note: The license of this repository applies only to the code and files created by this author (MIT). It does not alter or grant rights over third-party materials included here.
 
 # Credits
 
